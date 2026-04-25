@@ -36,4 +36,9 @@ export default {
     },
   },
   plugins: [daisyui],
+
+  // 👇 ADD THIS PART
+  daisyui: {
+    themes: ["winter"],
+  },
 };
